@@ -1,0 +1,51 @@
+# Site wide configuration
+
+title: Pool Tool
+locale: en_US
+url: https://ShawnGlider.github.io
+
+#images: https://raw.githubusercontent.com/ekiefl/images/main/images/
+#thumbnails: https://raw.githubusercontent.com/ekiefl/images/main/thumbnails/
+
+# Jekyll configuration
+permalink: /:year/:month/:day/:title/
+
+markdown: kramdown
+
+highlighter: rouge
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-gist
+
+whitelist:
+  - jekyll-redirect-from
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+# Site owner
+owner:
+  name: ShawnGlider
+  email: glider1984@gmail.com
+
+author:
+  name   : "ShawnGlider"
+  avatar : "/images/ShawnGlider.jpg"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ShawnGlider"
+
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

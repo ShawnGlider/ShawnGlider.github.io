@@ -1,0 +1,12 @@
+- name: "pooltool"
+  url:  "projects/pooltool/"
+  logo:  "/images/pooltool/pooltool_logo.png"
+  color: "#6D5C81"
+  thumbnail:  [
+    "/images/pooltool/pooltool_logo.png",
+    "/images/pooltool/thumbnail3.gif",
+    "/images/pooltool/thumbnail2.png",
+    "/images/pooltool/pooltool-graphics/gallery_2.png"
+  ]
+  description: >-
+      My journey in creating *pooltool*, a sandbox billiards/pool game that emphasizes realistic physics.
