@@ -1,9 +1,9 @@
 ---
 layout: home
-excerpt: "Evan Kiefl's personal website"
+excerpt: "PoolTool Research Memo website"
 tags: [Pool, physics engine]
 image:
-  feature: kochi.png
+  feature: Poolball.png
 include_bio: true
 ---
 

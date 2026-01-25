@@ -1,9 +1,9 @@
 ---
 layout: projects
 title: Projects
-excerpt: "Hobby projects of mine"
+excerpt: "Pool Tool project"
 comments: true
 ---
 
-Here you can browse my projects, which are just collections of blog posts that are cohesive enough
+Here you can browse Pool Tool project, which are just collections of blog posts that are cohesive enough
 to be grouped together.

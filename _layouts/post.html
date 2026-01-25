@@ -59,44 +59,6 @@
   </article>
 </div><!-- /#main -->
 
-<div class="footer-wrap">
-  {% if page.coffee %}
-  <div class="buy-me-a-coffee">
-    <h4>Did this content help you?</h4>
-    <a href="https://www.buymeacoffee.com/kieflevan">
-      <img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg" alt="Show your support" width="180"/>
-    </a>
-  </div>
-  {% endif %}
-  {% assign same_category_posts = site.posts | where: "categories", page.categories[0] | reverse %}
-  {% assign related_posts_same_category = "" | split: "" %}
-  {% for post in same_category_posts %}
-    {% if post.url != page.url %}
-      {% assign related_posts_same_category = related_posts_same_category | push: post %}
-    {% endif %}
-  {% endfor %}
-  {% if related_posts_same_category.size > 0 %}
-  <div class="related-articles">
-  <h4>All posts in {{ page.categories[0] }} <small class="pull-right">(<a href="{{ site.url }}/posts/">View all posts</a>)</small></h4>
-    <ul>
-    {% for post in related_posts_same_category %}
-      <li>
-      <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-      {% for project in site.data.projects %}
-        {% if project.name == post.categories[0] %}
-            <span class="lbl" style="background-color: {{project.color}}; font-size: 50%;">{{ project.name }}: {{ post.series }}</span>
-        {% endif %}
-      {% endfor %}
-      </li>
-    {% endfor %}
-    </ul>
-    <hr />
-  </div><!-- /.related-articles -->
-  {% endif %}
-  <footer>
-    {% include _footer.html %}
-  </footer>
-</div><!-- /.footer-wrap -->
 
 {% include _scripts.html %}	        
 

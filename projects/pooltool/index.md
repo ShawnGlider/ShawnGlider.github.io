@@ -29,14 +29,14 @@ Much about pooltool has been blogged, particularly during its early days of deve
 
 ## Blog summaries
 
-### [Blog #1 - 04/21/2020](https://ekiefl.github.io/2020/04/24/pooltool-theory/)
+### [Blog #1 - 04/21/2020](https://shawnglider.github.io/2020/04/24/pooltool-theory/)
 
 - I do a literature review on the physics of billiards
 - I outline and explain the models I plan to use for each physical process
 
 <img src="{{site.url}}/images/pooltool/pooltool-theory/sliding_diagram.jpg" alt="drawing" width="100%" class="no-border"/>
 
-### [Blog #2 - 12/20/2020](https://ekiefl.github.io/2020/12/20/pooltool-alg/)
+### [Blog #2 - 12/20/2020](https://shawnglider.github.io/2020/12/20/pooltool-alg/)
 
 - I research different shot evolution algorithms
 - I discover the event-based shot evolution algorithm by Leckie and Greenspan
@@ -44,7 +44,7 @@ Much about pooltool has been blogged, particularly during its early days of deve
 
 <img src="{{site.url}}/images/pooltool/pooltool-alg/all_events.jpg" alt="drawing" width="100%" class="no-border"/>
 
-### [Blog #3 - 03/25/2021](https://ekiefl.github.io/2021/03/25/pooltool-start/)
+### [Blog #3 - 03/25/2021](https://shawnglider.github.io/2021/03/25/pooltool-start/)
 
 - I start pooltool
 - I develop a prototypical pool simulator that can evolve shots according to a discrete time stepping algorithm, or the event-based algorithm
@@ -53,7 +53,7 @@ Much about pooltool has been blogged, particularly during its early days of deve
 <img src="{{site.url}}/images/pooltool/pooltool-start/before_after.gif" alt="drawing" width="100%" class="no-border"/>
 
 
-### [Blog #4 - 08/11/2021](https://ekiefl.github.io/2021/04/17/going-3d/)
+### [Blog #4 - 08/11/2021](https://shawnglider.github.io/2021/04/17/going-3d/)
 
 - I graduate to panda3d
 - I render all essential objects and HUD (badly)
@@ -65,7 +65,7 @@ Much about pooltool has been blogged, particularly during its early days of deve
 {% include youtube_embed.html id="aqjX0-A-YUw" %}
 
 
-### [Blog #5 - 10/26/2021](https://ekiefl.github.io/2021/10/26/graphics/)
+### [Blog #5 - 10/26/2021](https://shawnglider.github.io/2021/10/26/graphics/)
 
 - I learn blender
 - I model a table, balls, a cue, and a room
@@ -75,7 +75,7 @@ Much about pooltool has been blogged, particularly during its early days of deve
 <img src="{{site.url}}/images/pooltool/pooltool-graphics/gallery_2.png" alt="drawing" width="100%" class="no-border"/>
 
 
-### [Blog #6 - 05/03/2023](https://ekiefl.github.io/2023/05/03/update/)
+### [Blog #6 - 05/03/2023](https://shawnglider.github.io/2023/05/03/update/)
 
 - A general update with lots of gameplay footage
 
